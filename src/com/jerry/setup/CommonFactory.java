@@ -1,4 +1,4 @@
-package com.jerry.serup;
+package com.jerry.setup;
 
 /**
  * 普通工厂模式
