@@ -66,19 +66,19 @@ class NBAPlayer {
 public class OpenClosedPrincipl {
 
 	public static void main(String[] args) {
-        //不同的技巧  
-        Skill jamesSkill=new JamesSkill();  
-        Skill kobeSkill=new KobeSkill();  
-        Skill aiSkill=new AISkill();  
-  
-        //不同的球员  
-        NBAPlayer james=new NBAPlayer("James",jamesSkill);  
-        NBAPlayer kobe=new NBAPlayer("kobe",kobeSkill);  
-        NBAPlayer ai=new NBAPlayer("AI",aiSkill);  
-  
-        //会有不同的表现  
-        james.action();  
-        kobe.action();  
-        ai.action();  
+		// 不同的技巧
+		Skill jamesSkill = new JamesSkill();
+		Skill kobeSkill = new KobeSkill();
+		Skill aiSkill = new AISkill();
+
+		// 不同的球员
+		NBAPlayer james = new NBAPlayer("James", jamesSkill);
+		NBAPlayer kobe = new NBAPlayer("kobe", kobeSkill);
+		NBAPlayer ai = new NBAPlayer("AI", aiSkill);
+
+		// 会有不同的表现
+		james.action();
+		kobe.action();
+		ai.action();
 	}
 }
