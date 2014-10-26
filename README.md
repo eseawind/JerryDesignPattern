@@ -44,7 +44,7 @@ Java23种设计模式
 4、建造者模式	   Builder 
 5、原型模式	       Prototype
 	
-二、结构型模式
+二、结构型模式                 structure
 1、适配器模式	   Adapter 
 2、桥接模式	       Bridge 
 3、组合模式	       Composite  
@@ -53,7 +53,7 @@ Java23种设计模式
 6、享元模式	       Flyweight 
 7、代理模式	       Proxy  
 	
-三、行为型模式
+三、行为型模式                  behavior
 1、责任链模式		Chain of Responsibility
 2、命令模式	        Command 
 3、解释器模式		Interpreter 
