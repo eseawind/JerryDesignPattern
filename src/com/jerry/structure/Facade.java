@@ -38,10 +38,7 @@ class Facade {
 		c.doThird();
 		System.out.println("测试结束");
 	}
-}
-
-// 客户端角色
-class Client {
+	
 	public static void main(String[] args) {
 		Facade tem = new Facade();
 		tem.doSth();
