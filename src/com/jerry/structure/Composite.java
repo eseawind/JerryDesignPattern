@@ -53,7 +53,7 @@ class Composite extends Component {
 	public void remove(Component c) {
 		this.child.remove(c);
 	}
-
+	
 	public static void main(String[] args) {
 		Component tree = new Composite("A");// 根节点一般是composite节点，给根节点取名A
 		Component leafB = new Leaf("B");// 创建了一个叶子节点B
@@ -68,3 +68,4 @@ class Composite extends Component {
 		// 树结构大致构造完毕
 	}
 }
+
